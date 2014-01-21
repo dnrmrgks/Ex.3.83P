@@ -5,8 +5,13 @@
 //  Created by SDT-1 on 2014. 1. 21..
 //  Copyright (c) 2014년 T. All rights reserved.
 //
+/*
+#import "ProfileViewController.h"
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
-#import "ViewController.h"
+
+
 
 @interface ViewController ()
 
@@ -27,3 +32,4 @@
 }
 
 @end
+*/

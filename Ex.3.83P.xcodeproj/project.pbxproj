@@ -21,6 +21,9 @@
 		00AC2F0C188E321600CE959C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2EEE188E321500CE959C /* UIKit.framework */; };
 		00AC2F14188E321600CE959C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AC2F12188E321600CE959C /* InfoPlist.strings */; };
 		00AC2F16188E321600CE959C /* Ex_3_83PTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC2F15188E321600CE959C /* Ex_3_83PTests.m */; };
+		00AC2F21188E33F300CE959C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC2F20188E33F300CE959C /* ProfileViewController.m */; };
+		00AC2F23188E380000CE959C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2F22188E380000CE959C /* Accounts.framework */; };
+		00AC2F25188E381E00CE959C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2F24188E381E00CE959C /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		00AC2F11188E321600CE959C /* Ex.3.83PTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex.3.83PTests-Info.plist"; sourceTree = "<group>"; };
 		00AC2F13188E321600CE959C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AC2F15188E321600CE959C /* Ex_3_83PTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex_3_83PTests.m; sourceTree = "<group>"; };
+		00AC2F1F188E33F300CE959C /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		00AC2F20188E33F300CE959C /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		00AC2F22188E380000CE959C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		00AC2F24188E381E00CE959C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AC2F25188E381E00CE959C /* Social.framework in Frameworks */,
+				00AC2F23188E380000CE959C /* Accounts.framework in Frameworks */,
 				00AC2EED188E321500CE959C /* CoreGraphics.framework in Frameworks */,
 				00AC2EEF188E321500CE959C /* UIKit.framework in Frameworks */,
 				00AC2EEB188E321500CE959C /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		00AC2EE9188E321500CE959C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AC2F24188E381E00CE959C /* Social.framework */,
+				00AC2F22188E380000CE959C /* Accounts.framework */,
 				00AC2EEA188E321500CE959C /* Foundation.framework */,
 				00AC2EEC188E321500CE959C /* CoreGraphics.framework */,
 				00AC2EEE188E321500CE959C /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				00AC2F00188E321500CE959C /* ViewController.m */,
 				00AC2F02188E321500CE959C /* Images.xcassets */,
 				00AC2EF1188E321500CE959C /* Supporting Files */,
+				00AC2F1F188E33F300CE959C /* ProfileViewController.h */,
+				00AC2F20188E33F300CE959C /* ProfileViewController.m */,
 			);
 			path = Ex.3.83P;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 			files = (
 				00AC2F01188E321500CE959C /* ViewController.m in Sources */,
 				00AC2EFB188E321500CE959C /* AppDelegate.m in Sources */,
+				00AC2F21188E33F300CE959C /* ProfileViewController.m in Sources */,
 				00AC2EF7188E321500CE959C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
